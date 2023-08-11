@@ -1,9 +1,9 @@
 let hamburgerIcon = document.querySelector('#hamburger-icon');
-let navLinks = document.querySelector('.nav-links');
+let navigationHeader = document.querySelector('.navigation-header');
 
-if (hamburgerIcon && navLinks) {
+if (hamburgerIcon && navigationHeader) {
     hamburgerIcon.addEventListener('click', function () {
         hamburgerIcon.classList.toggle('active');
-        navLinks.classList.toggle('active');
+        navigationHeader.classList.toggle('active');
     });
 }
