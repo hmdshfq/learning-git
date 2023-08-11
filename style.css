@@ -127,6 +127,7 @@ h1 {
     .line {
         background-color: var(--color-light);
         height: 3px;
+        transition: transform 0.5s;
         width: 35px;
     }
     .line-1 {
