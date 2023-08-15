@@ -1,7 +1,19 @@
+
+
 body {
     font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
 }
 
 .btn{
     background-color: pink;
+    border: none;
+    border-radius: 10%;
+    
+}
+
+.nika{
+    color: purple; 
 }
